@@ -35,7 +35,7 @@ public class mediadoracoes {
 				
 				System.out.println("A média de ações é: "+mediaA);
 				System.out.println("A maior ação foi:"+max);
-				System.outprinln("A menor ação foi:"+min);
+				System.out.println("A menor ação foi:"+min);
 				
 		
 		}
