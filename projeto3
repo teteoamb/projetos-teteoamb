@@ -1,0 +1,43 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class mediadoracoes {
+	
+	
+
+		public static void main(String[] args) {
+			Scanner entrada = new Scanner(System.in);
+			int max = 0;
+			int min = 0;
+			int x = 27;
+			int mediaA;
+			int total = 0;
+			int mov[] = new int[28];
+			
+			for(int i = 0; i<x; i++);{
+				total = total + mov[i]
+			}
+			
+	
+		
+				
+				for(int i= 0; i<=x; i++) {
+					
+					System.out.println("Insira o valor da ação "+(i+1)+": ");
+					mov[i] = entrada.nextInt();}
+	
+				Arrays.sort(mov[28]);
+				min = mov[0];
+				max = mov[mov.length-1];
+				mediaA = total/x;
+				
+				
+				System.out.println("A média de ações é: "+mediaA);
+				System.out.println("A maior ação foi:"+max);
+				System.outprinln("A menor ação foi:"+min);
+				
+		
+		}
+}
+				
