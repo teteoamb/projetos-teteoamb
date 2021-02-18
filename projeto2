@@ -14,7 +14,6 @@ public class SegundaClasse {
 		double notas[] = new double [alunos];		
 		double maior = 0;
 		double menor = 0;
-		int i = 0;
 		while(opcao == 1);
 		{
 		System.out.println("Digite o número da opção: \n 1- Informar outro aluno \n 2-Terminar contagem \n ");
@@ -58,20 +57,45 @@ public class SegundaClasse {
 		}
 			else{
 			System.out.println("Você foi reprovado com média" +Math.round(medias)+"");
-			alunofail += 1;
-			
-	}System.out.println("Digite o número da opção: \n 1- Informar outro aluno \n 2-Terminar contagem \n ");
-	int opcao = school.nextInt();
-	for(double i = 0; i < notas.lenght; i++);
-	if(notas[i] > maior){
-		int	 maior = notas[i];
-	}else if (int i = 0; i > notas.length; i++)
-	(notas[i] < menor){
-		double	menor = notas[i];
+			alunofail += 1;}
 		}
+	
+	for(int i = 0; i < notas.lenght-1; i++);
+	{if(notas[i] > maior){;
+	int	 maior = notas[i];
+	else if (int i = 0; i > notas.length; i++);
+	{(menor>notas[i]);
+	int	menor = notas[i];
+	}
+	System.out.println("A menor nota foi de "+menor);
+	System.out.println("A maior nota foi de" +maior);
+	System.out.println("O total de alunos que passaram foi"+alunosucesso);
+	System.out.println("O total de alunos que foram para prova fina foi" +alunofinal);
+	System.out.println("O total de alunos que não passaram foi" +alunofail);
+	
+	
+	
+	
+	
+	}
 			
 		
 	
+	
+	
+}
+			
+			
+
+
+			
+				
+		
+		
+			
+	
+		
+	}
 	
 	}
 }
