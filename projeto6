@@ -1,1 +1,49 @@
 
+	<DOCTYPE html>
+<html>
+	<head><head>
+		<body>
+		<script>
+		
+		var contagem = 0;
+		var maior = 0;
+		var menor = 0;
+		while(contagem < 45){
+		var peso = prompt(Informe o peso del aluno");
+		var altura = prompt(Informe a altura del aluno");
+		var imc = (peso * altura);
+		if(imc >= 40){
+		alert("O aluno possuí obesidade grave de grau 3!!");
+		contagem = contagem + 1;	
+			if(maior < imc){
+				maior = imc;
+				}
+				}
+		if(imc <= 18.5){
+			alert("O aluno possui magreza e se encontra na classificação 0 de obesidade");
+			contagem = contagem + 1;
+				if(menor > imc){
+				menor = imc;
+				}
+		
+		}if(imc > 18.5 && imc < 24.9){
+		alert("O aluno possuí uma classificação normal e obesidade grau 0");
+		contagem = (contagem + 1);
+		}
+		
+		
+		if(imc > 25 && imc < 29.9){
+		alert("O aluno possui sobrepeso e obesidade de grau 1");
+		contagem = (contagem + 1);
+		}
+		
+		if(imc > 30 && imc < 39,9){
+		alert("O aluno possui obesidade eem graud 2");
+		contagem = (contagem + 1);
+		}
+		}
+		
+	
+		</script>
+		<body>
+		</html>
