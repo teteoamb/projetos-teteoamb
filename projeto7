@@ -1,0 +1,40 @@
+<DOCTYPE html>
+<html>
+	<head><head>
+		<body>
+		<script>
+		var galera10 = 0;
+		var galera15m = 0;
+		var galera15 = 0;
+		var pergunta = prompt("deseja participar da pesquisa?");
+		while (pergunta = sim){
+			
+			var pergunta1 = prompt("quantas vezes voce utilizou o ru esse mes?");
+			if pergunta1 = "não"{
+			alert("o numero de entrevistados foi" +(galera10 + galera15 + galera15m));
+		
+			}
+			
+		if(pergunta1 <=10){
+		alert("obrigado por participar da pesquisa!");
+		galera10++;
+		}
+		
+		if(pergunta1 >10 && pergunta1 <15){
+		alert("obrigado por participar da pesquisa!");
+		galera15++;
+		}
+		
+		if(pergunta1 >15){
+		alert("obrigado por participar da pesquisa!");
+		galera15m++;
+		}
+		
+	}
+		alert("o numero de pessoa que comem no maximo dez vezes foi" +galera10);
+		alert("o numero de pessoas que comem entre 10 e 15 vezes foi" +galera15);
+		alert("o numero de pessoas que comem mais de 15 vezes foi" +galera15m);
+	
+		</script>
+		<body>
+		</html>
