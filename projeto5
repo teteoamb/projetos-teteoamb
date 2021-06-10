@@ -1,1 +1,22 @@
-a
+	<DOCTYPE html>
+<html>
+	<head><head>
+		<body>
+		<script>
+		var total;
+		var valoralcool = 3.16;
+		var valorgasosa = 4.19
+		var litros = prompt("Informe a quantidade de litros desejada");
+		var codigo = prompt("Informe o codigo do combustivel desejado");
+			if (codigo == 1){
+			document.write("Voce selecionou Alcool   ");
+			total = (litros * valoralcool);
+			document.write("Voce deve pagar" + total);
+	}else{
+		document.write("Voce selecionou gasolina   ");
+		total = (litros * valorgasosa);
+		document.write("Voce deve pagar" +total);
+		}
+		</script>
+		<body>
+		</html>
