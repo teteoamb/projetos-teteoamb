@@ -1,0 +1,27 @@
+<head><head>
+		<body>
+		<script>
+		prompt("qual é o seu plano?") = var codigo;
+		prompt("qual é o seu salario?") = var x;
+		var plano_a = (x + x/10);
+		var plano_b = (x + x/15 * 100);
+		var plano_c = (x +x/5);
+		
+			switch codigo = prompt ("digite a letra de seu plano:");
+			case "a":
+			alert("seu valor é de" +plano_a);
+			break;
+			case "b":
+			alert("seu valor é de" +plano_b);
+			break;
+			case "c":
+			alert("seu valor é de" +plano_c);
+			break;
+			
+			
+		
+		
+		
+		</script>
+		<body>
+		
