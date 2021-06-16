@@ -1,0 +1,11 @@
+		function desconto(preço) {
+prompt("Insira o valor da commpra") = var descontado;
+if preço >= 500{
+descontado = (preço/10) + (preço/20);
+alert("o preço é de" +descontado);
+}else
+{descontado = (preço/10);
+return descontado;
+}
+			
+		
