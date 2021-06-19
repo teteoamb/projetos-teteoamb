@@ -1,0 +1,18 @@
+prompt("escreva uma carta das 52 do baralho") = var carta;
+	if carta <= 52{
+		var num = new Array(52);
+		var num = ["a paus", "2 paus", "3 paus", "4 paus", "5 paus", "6 paus", "7 paus", "8 paus", "9 paus", "valete paus", "rainha de paus", "rei de paus"
+		"a copas", "2 copas", "3 copas", "4 copas", "5 copas", "6 copas", "7 copas", "8 copas", "9 copas", "valete copas", "rainha de copas", "rei de copas"
+		"a espadas", "2 espadas", "3 espadas", "4 espadas", "5 espadas", "6 espadas", "7 espadas", "8 espadas", "9 espadas", "valete espadas", "rainha de espadas", "rei de espadas"
+		"a paus", "2 paus", "3 paus", "4 paus", "5 paus", "6 paus", "7 paus", "8 paus", "9 paus", "valete paus", "rainha de paus", "rei de paus"
+		"a ouros", "2 ouros", "3 ouros", "4 ouros", "5 ouros", "6 ouros", "7 ouros", "8 ouros", "9 ouros", "valete ouros", "rainha de ouros", "rei de ouros"];
+		var aleatorio = Math.random();
+		aleatorio.toFixed(2);
+		while aleatorio <= 0.52, num[aleatorio] != carta){
+			aleatorio * 100 = var num[aleatorio];
+			document.write("sua carta é" +num[aleatorio]);
+			if num[aleatorio] == carta;
+				alert("acertei sua carta!" +carta);
+			}
+			}
+			
