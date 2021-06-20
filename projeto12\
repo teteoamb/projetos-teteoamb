@@ -1,0 +1,8 @@
+try{
+	prompt("Informe seu peso") = var peso;
+	prompt("Informe sua altura") = var altura;
+	var imc = (peso/(altura * altura));
+	alert("Seu imc é de" +imc);
+	}
+catch(Typeerror){
+	alert("Porfavor insira as medidas corretas|");
