@@ -8,8 +8,8 @@ prompt("escreva uma carta das 52 do baralho") = var carta;
 		"a ouros", "2 ouros", "3 ouros", "4 ouros", "5 ouros", "6 ouros", "7 ouros", "8 ouros", "9 ouros", "valete ouros", "rainha de ouros", "rei de ouros"];
 		var aleatorio = Math.random();
 		aleatorio.toFixed(2);
-		while aleatorio <= 0.52, num[aleatorio] != carta){
-			aleatorio * 100 = var num[aleatorio];
+		while aleatorio <= (0.52, num[aleatorio] != carta){
+			aleatorio * 100 = num[aleatorio];
 			document.write("sua carta é" +num[aleatorio]);
 			if num[aleatorio] == carta;
 				alert("acertei sua carta!" +carta);
