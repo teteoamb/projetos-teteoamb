@@ -1,0 +1,36 @@
+class aluno
+	{
+	var alunos = new Array();
+	constructor(matricula, nome, cpf, nascimento, sexo, mae, pai, email, tel, alunos);
+	{
+	this.nome = nome;
+	this.cpf = cpf;
+	this.nascimento = nascimento;
+	this.sexo = sexo;
+	this.mae = mae;
+	this.pai = pai;
+	this.email = email;
+	this.tel = tel;
+	numerodealuno = 0;
+	
+	
+	}
+	informar(){
+	prompt("Informe seu cpf") = this.cpf;
+	prompt("Informe data de nascimento") = this.nascimento;
+	prompt("Informe seu sexo") = this.sexo;
+	prompt("Informe o nome de seu paiZ") = this.pai;
+	prompt("Informe o nome de sua mãeZ") = this.mae;
+	prompt("Informe seu email") = this.email;
+	prompt("informe seu tel") = this.tel;
+	}
+	
+	prompt("deseja cadastrrar outro aluno?") = var resposta;
+		while resposta == sim{
+		var nome = new aluno
+		prompt("informe o nome do aluno") = nome;
+		nome.informar();
+		alunos.push(this.aluno);
+		
+		}
+		}
