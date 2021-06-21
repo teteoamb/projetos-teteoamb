@@ -1,0 +1,10 @@
+public class perdadehp;
+private static perdadehp instancia;
+public static perdadehp obterinstancia(){
+	if(instancia == null)
+		private perdadehp() { }
+		{instancia = new perdadehp();
+		}
+		return intancia;
+		}
+		}
